@@ -1,0 +1,33 @@
+SIMULATED SOC ALERT
+
+Alert ID: SOC-001
+Case ID: PHISH-001
+Alert Type: Potential Phishing Email
+Severity: Medium
+Status: Under Investigation
+Environment: Simulated lab
+
+Alert Description:
+A fictional email claims that the recipient's Microsoft 365 account will be disabled unless the recipient verifies the account. The message contains an urgent subject line and a suspicious-looking verification URL.
+
+Evidence:
+- Fictional sender: it-support@example.invalid
+- Subject: URGENT: Your Microsoft 365 Account Will Be Disabled
+- URL: hxxps://microsoft365-security-check.example.invalid/verify
+- Header analysis: SPF, DKIM, and DMARC failures were observed in the constructed practice header.
+- URL and email-address extraction were performed using CyberChef.
+
+Analyst Assessment:
+The urgency, account-verification request, and authentication failures are suspicious indicators. However, the email and header are simulated. No real malicious activity has been confirmed.
+
+Recommended Actions:
+1. Do not click the URL or enter credentials.
+2. Preserve the email and relevant evidence.
+3. If this were a real incident, investigate the sender, message headers, URL reputation, and any available email-security logs.
+4. Escalate for further review if supported by additional evidence.
+
+Disposition:
+Simulated phishing alert documented for portfolio practice.
+
+Limitations:
+This alert is based on fictional evidence and does not represent a confirmed real-world security incident.

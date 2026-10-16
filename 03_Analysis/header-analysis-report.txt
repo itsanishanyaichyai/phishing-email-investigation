@@ -1,0 +1,101 @@
+PHISHING EMAIL INVESTIGATION
+Header Analysis Report
+
+Case ID: PHISH-001
+Evidence ID: E-005
+Tool: Google Admin Toolbox Messageheader
+Input: Manually constructed fictional practice header
+
+Observed Results
+
+1. SPF: Fail with IP Unknown.
+2. DKIM: Fail with domain Unknown.
+3. DMARC: Fail.
+
+Interpretation
+
+The tool displayed failures for all three email authentication checks. The SPF result indicates that the tool could not identify a sending IP address for the check. The DKIM result indicates that the signing domain was unknown to the tool.
+
+Because the header was manually constructed and uses fictional domains, these results cannot establish that a real email failed authentication or was malicious.
+
+Evidence Preserved
+
+Screenshot: header-tool-output.png
+
+Limitations
+
+- The input was not obtained from a genuine received email.
+- The authentication results were included in the manually constructed header.
+- No real sender, sending IP address, DKIM signature, or phishing incident was verified.
+
+Conclusion
+
+This exercise demonstrates how to submit a practice header to Google Admin Toolbox and document its displayed output. A genuine email header is required for a meaningful real-world authentication investigation.
+
+## CyberChef URL Analysis Report
+
+**Case ID:** PHISH-001  
+**Evidence ID:** E-006  
+**Tool:** CyberChef  
+**Input:** Fictional sample phishing email  
+**Operations:** Extract URLs, Find / Replace, URL Decode
+
+### Observed Results
+
+1. Extracted the URL from the sample email.
+2. Normalized the defanged `hxxps` prefix to `https` for analysis.
+3. Applied URL Decode; the URL remained readable and unchanged.
+
+**Original defanged URL:**  
+hxxps://microsoft365-security-check.example.invalid/verify
+
+**Normalized URL:**  
+https://microsoft365-security-check.example.invalid/verify
+
+### Interpretation
+
+The email contains a link presented as an account verification page. Combined with the urgent account-disablement warning, this is consistent with common phishing techniques.
+
+The `.invalid` domain is reserved for invalid examples. The URL is fictional and was not visited. No real malicious website was identified.
+
+### Limitations
+
+- The email was created for practice.
+- No real phishing URL or malicious domain was verified.
+- URL extraction and decoding alone do not establish malicious activity.
+
+### Conclusion
+
+This exercise demonstrates how CyberChef can extract and process a URL from email text. The results provide practice in documenting suspicious indicators without interacting with a potentially unsafe website.
+
+
+## CyberChef Email Address Extraction Report
+
+**Case ID:** PHISH-001  
+**Evidence ID:** E-007  
+**Tool:** CyberChef  
+**Operation:** Extract email addresses  
+**Input:** Fictional sample phishing email
+
+### Extracted Results
+
+| Field | Extracted value |
+|---|---|
+| Sender | it-support@example.invalid |
+| Recipient | employee@company.example |
+
+### Analysis
+
+CyberChef successfully extracted two email addresses from the sample email text. The sender address uses an `.invalid` domain, while the recipient uses the reserved `.example` domain.
+
+These addresses are fictional training data. Their extraction does not establish that a real sender is malicious or that an actual phishing email was received.
+
+### Conclusion
+
+This exercise demonstrates the use of CyberChef to extract email addresses from email text and document them as potential investigation indicators.
+
+**Limitations:** No genuine sender identity or email delivery was verified.
+
+
+
+End of Report

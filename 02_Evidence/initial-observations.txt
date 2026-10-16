@@ -1,0 +1,29 @@
+PHISHING EMAIL INVESTIGATION
+Initial Observations
+
+Case ID: PHISH-001
+Evidence ID: E-002
+
+Source:
+Fictional suspicious email created for cybersecurity training.
+
+Subject:
+URGENT: Your Microsoft 365 Account Will Be Disabled
+
+Initial Observations:
+
+1. The subject uses urgent language.
+2. The email threatens account suspension within 24 hours.
+3. The sender display name claims to represent IT Support.
+4. The sender's identity has not been independently verified.
+5. The message includes a link requesting account verification.
+6. The URL uses a fictional .invalid domain.
+
+Initial Assessment:
+The message contains characteristics commonly associated with phishing, including urgency, a threat, and a verification link.
+
+Limitations:
+This is a fictional training email. These observations do not prove that a real phishing attack occurred.
+
+Status:
+Initial observations completed.

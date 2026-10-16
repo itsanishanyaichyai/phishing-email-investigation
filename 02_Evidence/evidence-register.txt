@@ -1,0 +1,60 @@
+PHISHING EMAIL INVESTIGATION
+Evidence Register
+
+Case ID: PHISH-001
+Case Type: Beginner phishing email investigation
+Case Status: In progress
+Sample Type: Fictional training example
+
+Evidence ID: E-001
+File Name: suspicious_email.txt
+Description: Fictional suspicious email created for this project.
+Purpose: Identify possible phishing indicators.
+
+Evidence ID: E-002
+File Name: initial-observations.txt
+Description: Initial observations recorded during email review.
+Purpose: Document the first observations and limitations.
+
+Evidence ID: E-003
+File Name: phishing-indicators.txt
+Description: List of potential phishing indicators identified in the sample.
+Purpose: Explain why the email may be suspicious.
+
+Evidence ID: E-005
+File Name: header-analysis-report.txt
+Description: Report documenting Google Admin Toolbox Messageheader output from a manually constructed practice header.
+Purpose: Record simulated SPF, DKIM, and DMARC results and their limitations.
+
+Evidence ID: E-006
+File Name: header-analysis-report.txt
+Description: CyberChef URL extraction and URL decoding results.
+Purpose: Document the extracted and normalized fictional URL.
+
+Evidence ID: E-007
+File Name: header-analysis-report.txt
+Description: CyberChef email-address extraction results.
+Purpose: Document sender and recipient addresses extracted from the fictional email.
+
+Evidence ID: E-009
+File Name: suspicious_email.txt
+Description: SHA-256 hash calculated using Windows PowerShell.
+Purpose: Record a file fingerprint to support evidence integrity checks.
+
+Note: The actual SHA-256 value should be recorded in the separate hash analysis report. The sample is fictional training data.
+
+Additional Analysis:
+File Name: url-analysis.txt
+Description: URL analysis notes for the fictional sample email.
+
+File Name: virustotal-url-analysis.txt
+Description: VirusTotal practice lookup for example.com, with an observed detection ratio of 0/92.
+Purpose: Practice interpreting URL reputation results; this is not a scan of the fictional phishing URL.
+
+Evidence Limitations:
+- The email and its indicators are fictional training data.
+- The header was manually constructed; authentication results are simulated.
+- The VirusTotal result applies to example.com only.
+- No real malicious domain, IP address, or phishing incident has been confirmed.
+- No live website from the fictional sample was visited.
+

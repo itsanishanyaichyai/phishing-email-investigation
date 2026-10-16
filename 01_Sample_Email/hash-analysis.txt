@@ -1,0 +1,22 @@
+# SHA-256 File Hash Analysis
+
+**Case ID:** PHISH-001  
+**Evidence ID:** E-009  
+**Evidence Name:** suspicious_email.txt  
+**Evidence Path:** 01_Sample_Email/suspicious_email.txt  
+**Tool Used:** Windows PowerShell  
+**Algorithm:** SHA-256  
+
+## Purpose
+Calculate a SHA-256 hash to establish a unique fingerprint of the saved sample email file.
+
+## Procedure
+Used PowerShell's `Get-FileHash` command with the SHA256 algorithm to calculate the hash of the saved file.
+
+## Result
+**SHA-256 Hash:** Paste the actual hash value displayed by PowerShell here.
+
+## Assessment
+The SHA-256 hash identifies the exact contents of the file at the time of hashing. If the file's contents change, its hash will normally change as well. This hash does not independently establish whether the email is malicious.
+
+**Project limitation:** The email is a fictional training sample created for this investigation. The hash is not evidence of a real-world phishing incident.

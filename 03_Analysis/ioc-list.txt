@@ -1,0 +1,40 @@
+# Indicators of Compromise (IOC) Register
+
+**Case ID:** PHISH-001  
+**Investigation Type:** Simulated phishing investigation
+
+## 1. Indicators Identified
+
+| Indicator Type | Value | Source | Assessment |
+|---|---|---|---|
+| Sender email | it-support@example.invalid | Fictional sample email | Unverified; fictional address |
+| Recipient email | employee@company.example | Fictional sample email | Fictional address |
+| URL | hxxps://microsoft365-security-check.example.invalid/verify | CyberChef E-006 | Suspicious-looking verification URL in a simulated email |
+| Domain | microsoft365-security-check.example.invalid | Fictional sample email | Reserved invalid domain; not a live threat indicator |
+
+## 2. Email Authentication Evidence
+
+**Evidence ID:** E-005  
+**Tool:** Google Admin Toolbox Messageheader
+
+The manually constructed practice header displayed SPF, DKIM, and DMARC failures. These results are simulated and do not verify the authentication status of a real email.
+
+## 3. Threat Intelligence Evidence
+
+**Tool:** VirusTotal  
+**Practice domain:** example.com  
+**Observed detection ratio:** 0/92
+
+This result applies only to the practice domain. It does not establish the reputation or safety of the fictional URL in the sample email.
+
+## 4. Limitations
+
+- All email addresses and the phishing URL are fictional.
+- No real malicious domain or IP address has been confirmed.
+- No genuine email authentication results have been verified.
+- Extracting an indicator does not prove that it is malicious.
+
+## 5. Analyst Conclusion
+
+This register documents indicators extracted from a simulated phishing email and separates observed tool output from unverified assumptions. Further investigation with genuine email evidence would be necessary to confirm a real phishing incident.
+

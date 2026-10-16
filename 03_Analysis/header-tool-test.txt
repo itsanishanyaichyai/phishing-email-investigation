@@ -1,0 +1,26 @@
+PHISHING EMAIL INVESTIGATION
+Email Header Tool Test
+
+Case ID: PHISH-001
+Evidence ID: E-005
+Tool: Google Admin Toolbox Messageheader
+
+Test Input:
+A manually constructed fictional practice header.
+
+Observed Tool Output:
+- SPF: fail
+- DKIM: fail
+- DMARC: fail
+- The tool did not display a missing/invalid header warning.
+
+Interpretation:
+The tool accepted the header and displayed the listed authentication results. However, the SPF, DKIM, and DMARC failure values were included in the manually created input. They were not independently verified against a genuine email or authenticated sending infrastructure.
+
+Limitations:
+- The input was fictional and manually constructed.
+- The results do not prove that a real email failed authentication.
+- No real sender, domain, or phishing incident was verified.
+
+Conclusion:
+This test demonstrated how to submit a header to an email-header analysis tool and document its displayed output. A genuine email header would be needed for a meaningful real-world authentication assessment.

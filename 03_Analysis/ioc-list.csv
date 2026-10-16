@@ -1,0 +1,4 @@
+Indicator Type,Indicator Value,Source,Evidence ID,Assessment
+Email Address,it-support@example.invalid,Sample email,E-007,Fictional sender address
+Email Address,employee@company.example,Sample email,E-007,Fictional recipient address
+URL,hxxps://microsoft365-security-check.example.invalid/verify,Sample email,E-006,Fictional practice URL

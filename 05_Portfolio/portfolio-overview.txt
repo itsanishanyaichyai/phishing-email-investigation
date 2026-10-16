@@ -1,0 +1,38 @@
+# Cybersecurity Portfolio
+
+## Project: Phishing Email Investigation
+
+**Project ID:** PHISH-001  
+**Focus:** Security Operations Center (SOC) Analyst skills  
+**Level:** Beginner  
+**Environment:** Windows
+
+### Project Description
+
+This project demonstrates a structured investigation of a fictional suspicious email. It includes phishing indicator identification, URL and email-address extraction, simulated email-header analysis, URL reputation lookup practice, SHA-256 file hashing, evidence management, and incident reporting.
+
+### Tools Practiced
+
+- CyberChef
+- Google Admin Toolbox Messageheader
+- VirusTotal
+- Windows PowerShell
+- Notepad and File Explorer
+
+### Skills Demonstrated
+
+- Phishing email triage
+- IOC identification and documentation
+- Email-header analysis fundamentals
+- URL and email-address extraction
+- Threat-intelligence lookup
+- SHA-256 hashing and evidence integrity
+- Security investigation documentation
+
+### Project Limitations
+
+This is a simulated training project. The sample email and practice header are fictional. No real phishing incident or malicious infrastructure has been confirmed.
+
+### Supporting Evidence
+
+Detailed analysis reports, the IOC register, the evidence register, and the investigation summary are maintained in the project folders.

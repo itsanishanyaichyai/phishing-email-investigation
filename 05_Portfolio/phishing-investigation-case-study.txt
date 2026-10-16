@@ -1,0 +1,39 @@
+# Phishing Email Investigation
+## SOC Analyst Portfolio Case Study
+
+### Project Summary
+I completed a simulated phishing email investigation to practice identifying suspicious email characteristics, extracting indicators, reviewing security-tool output, and documenting evidence.
+
+### Scenario
+A fictional email claimed that a Microsoft 365 account would be disabled unless the recipient completed an account-verification process.
+
+### Investigation Activities
+1. Reviewed the email subject, sender, recipient, and URL.
+2. Identified urgency, an account-suspension threat, and a verification request as potential phishing indicators.
+3. Used CyberChef to extract the URL and email addresses from the sample.
+4. Submitted a manually constructed practice header to Google Admin Toolbox Messageheader and documented the displayed SPF, DKIM, and DMARC failures.
+5. Queried `example.com` in VirusTotal and recorded the observed detection ratio of 0/92.
+6. Used Windows PowerShell to calculate a SHA-256 hash of the sample email.
+7. Documented the evidence, indicators, limitations, and recommended actions.
+
+### Tools
+- CyberChef
+- Google Admin Toolbox Messageheader
+- VirusTotal
+- Windows PowerShell
+- Notepad
+- File Explorer
+
+### Key Learning Outcomes
+- Recognizing common phishing characteristics
+- Extracting URLs and email addresses
+- Understanding basic email authentication checks
+- Interpreting URL reputation results cautiously
+- Calculating SHA-256 file hashes
+- Maintaining evidence records and communicating findings
+
+### Conclusion
+The exercise demonstrates a structured approach to phishing triage and investigation documentation. The sample email and practice header were fictional. No real malicious URL, compromised account, or phishing incident was confirmed.
+
+### Evidence Available
+Supporting sample files, analysis reports, the IOC register, the evidence register, and the investigation summary are maintained in the project repository.

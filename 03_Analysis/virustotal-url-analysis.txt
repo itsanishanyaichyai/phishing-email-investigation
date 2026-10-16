@@ -1,0 +1,18 @@
+# VirusTotal URL Analysis
+
+**Project:** Phishing Email Investigation  
+**Tool:** VirusTotal  
+**URL analyzed:** `https://example.com`  
+**Detection result:** 0/92
+
+## Findings
+At the time of analysis, VirusTotal reported that 0 of 92 security vendors flagged the example domain as malicious.
+
+## Interpretation
+No detections were reported in this result. However, a zero-detection result does not guarantee that a URL is safe. Additional evidence and context are necessary to determine whether a URL is associated with phishing.
+
+## Limitation
+The domain `example.com` is used for practice and documentation. This result is a baseline exercise, not evidence of a real phishing incident.
+
+## Analyst conclusion
+I practiced reviewing URL reputation results and documenting detection ratios, findings, and limitations using VirusTotal.

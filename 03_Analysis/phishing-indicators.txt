@@ -1,0 +1,28 @@
+PHISHING INDICATORS — CASE PHISH-001
+
+Indicator 1: Urgent subject line
+Evidence: "URGENT: Your Microsoft 365 Account Will Be Disabled"
+Analysis: The subject creates pressure to make the recipient act quickly.
+
+Indicator 2: Threat of account suspension
+Evidence: "Your account will be permanently disabled within 24 hours."
+Analysis: The threat may cause fear and discourage the recipient from verifying the message.
+
+Indicator 3: Unverified sender
+Evidence: "IT Support"
+Analysis: The display name claims to represent IT Support, but the sender's identity has not been verified.
+
+Indicator 4: Generic greeting
+Evidence: "Dear User"
+Analysis: A generic greeting can appear in mass-distributed emails, but it does not prove phishing by itself.
+
+Indicator 5: Account verification link
+Evidence: The email asks the recipient to verify their account through a link.
+Analysis: A fraudulent verification page could be used to steal credentials, but this sample does not establish that credential theft occurred.
+
+Indicator 6: Suspicious-looking URL
+Evidence: microsoft365-security-check.example.invalid
+Analysis: The URL contains Microsoft-related wording, but the reserved .invalid domain indicates that this is a fictional training example.
+
+Conclusion:
+The email contains several phishing indicators. Because it is fictional, no real attacker or malicious campaign has been confirmed.

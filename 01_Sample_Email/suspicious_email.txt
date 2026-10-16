@@ -1,0 +1,20 @@
+Subject: URGENT: Your Microsoft 365 Account Will Be Disabled
+
+From: IT Support it-support@example.invalid
+To: employee@company.example
+Date: 15 October 2026
+
+Dear User,
+
+Our security system detected unusual activity in your Microsoft 365 account.
+
+Your account will be permanently disabled within 24 hours unless you complete the security verification process immediately.
+
+Please verify your account using the link below:
+
+hxxps://microsoft365-security-check.example.invalid/verify
+
+Failure to complete this process may result in loss of access to your email and company documents.
+
+Regards,
+IT Support Team

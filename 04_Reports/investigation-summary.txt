@@ -1,0 +1,57 @@
+PHISHING EMAIL INVESTIGATION SUMMARY
+
+Case ID: PHISH-001
+Analyst: Student Analyst
+Investigation Status: Preliminary analysis
+
+1. Objective
+
+The objective of this investigation is to examine a fictional suspicious email and document possible phishing indicators.
+
+2. Evidence Reviewed
+
+-suspicious_email.txt — fictional sample email
+
+-initial-observations.txt — initial observations
+
+-phishing-indicators.txt — potential phishing indicators
+
+-url-analysis.txt — URL analysis notes
+
+-header-analysis-report.txt — simulated email-header analysis and CyberChef results
+
+-virustotal-url-analysis.txt — VirusTotal practice lookup for example.com, showing 0/92 detections
+
+-ioc-list.txt — indicators register
+
+evidence-register.txt — evidence inventory
+3. Key Findings
+
+- The subject uses urgent language about account deactivation.
+- The message threatens account suspension to encourage quick action.
+- The sender's identity has not been independently verified.
+- The email contains a link described as an account verification page.
+- The URL uses a fictional .invalid domain and was not visited.
+
+4. Assessment
+
+The email contains several characteristics commonly associated with phishing, including urgency, a threat of account suspension, and a request to verify an account.
+
+However, this is a fictional training sample. The findings do not establish that a real phishing attack occurred.
+
+5. Recommended Actions
+
+- Verify unexpected account-security messages through official channels.
+- Do not click suspicious links or provide credentials through unverified pages.
+- Preserve relevant email evidence for further analysis.
+- In a real incident, follow the organization's security reporting procedures.
+
+6. Limitations
+
+No live website, real email account, or real-world threat intelligence source was examined. The sender and URL have not been confirmed as malicious.
+
+7. Conclusion
+
+The sample demonstrates how to identify and document potential phishing indicators. Further investigation would be required to reach a conclusion about a real email.
+
+End of Report

@@ -1,0 +1,28 @@
+PHISHING EMAIL INVESTIGATION
+URL Analysis
+
+Case ID: PHISH-001
+Evidence ID: E-004
+
+Defanged URL:
+hxxps://microsoft365-security-check.example.invalid/verify
+
+Analysis:
+
+1. Protocol: hxxps
+   The URL is defanged. The usual HTTPS protocol is written this way to reduce the chance of accidentally opening a link.
+
+2. Hostname: microsoft365-security-check.example.invalid
+   The hostname contains words associated with Microsoft 365 account security. However, the name alone does not prove that the URL is malicious.
+
+3. Domain ending: .invalid
+   The .invalid ending is reserved for invalid domain names and is appropriate for this fictional training example.
+
+4. Path: /verify
+   The path suggests an account verification page, but its purpose cannot be confirmed from the URL alone.
+
+Conclusion:
+The URL uses language associated with account security and verification. However, it is a fictional training URL, not a confirmed malicious indicator. It was not opened or visited.
+
+Analyst Note:
+Never visit a suspicious link just to investigate it. Use safe, approved analysis methods.
